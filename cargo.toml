@@ -1,0 +1,16 @@
+[package]
+name = "load_gltf"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib","rlib"]
+
+[[bin]]
+name = "bin"
+path = "src/main.rs"
+
+[dependencies]
+bevy = "0.15.3"
+bevy_egui = "0.33.0"
+bevy_panorbit_camera = "0.23.0"
